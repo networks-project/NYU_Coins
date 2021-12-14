@@ -30,3 +30,11 @@ In new terminal, enter: yarn serve
   Ctrl Click on http://localhost:8080/
   
  IMPORTANT: When entering Crypto abbreviations into the submit box, USE ALL CAPITALIZED LETTERS. If you use lowercase, it won’t be able to be deleted due to a bug
+ 
+The code that we wrote is in the following files:
+  /src/App.vue
+  /backend/app.js
+  /backend/database.js
+  /backend/models/Crypto.js
+  /backend/routes/crypto.route.js
+
