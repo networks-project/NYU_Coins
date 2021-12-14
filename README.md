@@ -28,3 +28,5 @@ In new code editor terminal, first cd into \backend directory, then enter: node 
 
 In new terminal, enter: yarn serve
   Ctrl Click on http://localhost:8080/
+  
+ IMPORTANT: When entering Crypto abbreviations into the submit box, USE ALL CAPITALIZED LETTERS. If you use lowercase, it won’t be able to be deleted due to a bug
