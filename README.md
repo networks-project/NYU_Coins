@@ -1,40 +1,58 @@
-# NYU_Coins2
+# NYU Coins
 
-To run code locally, do the following:
+## Description
+A crypto currency web app made with `Javascript/Node.js`, `HTML&CSS`, `Vue`, `MongoDB`, and [CryptoCompare API](https://min-api.cryptocompare.com/) for current crypto rates. 
 
-Download GitHub repository from https://github.com/networks-project/NYU_Coins
+## Setup
+- Download source files from [this repo](https://github.com/networks-project/NYU_Coins) or clone repo with  
+  ```git clone https://github.com/networks-project/NYU_Coins```
+- Use `Terminal` for **linux/Mac** or `Command Prompt` for **Windows**
 
-Open code editor application, I used Microsoft Visual Studio Code
+## Dependencies 
+  - **Visual Studio Code** (our team used) or any other IDE
+  - **Node.js, npm, yarn**: to check their versions
+    ```
+    node -v, npm -v, yarn version
+    ```
+  - **Vue CLI**: 
+    ```
+    npm install -g @vue/cli
+    ```
+  - **Axios**
+    ```
+    npm install axios
+    ```
+  - **MongoDB Community**: [installation instructions](https://www.mongodb.com/try/download/community)
 
-Install Node.js as well as NPM which should be enabled by default
- <br>  In code editor terminal enter: node -v
- <br>  In code editor terminal enter: npm -v
+## How to Run
+### Start Axios
+>Open the code editor's terminal(linux/mac) or command prompt(windows), `cd` into `my-project` directory and run: 
+  ```
+  npm i axios
+  ```
+### Initialize App
+>In a new terminal(linux/mac) or command prompt(windows), `cd` into `backend` directory and run: 
+  ```
+  npm init -y
+  npm i body-parser cors express mongoose
+  ```
+### Start Backend
+>In a new terminal(linux/mac) or command prompt(windows), `cd` into `backend` directory and run:
+  ```
+  node app.js
+  ```
+  **Should be able to see:**`Connected to port 4000, Database connected`
+### Serve App
+>with yarn
+```
+yarn serve
+```
+**Should be able to view at** http://localhost:8080/
 
-Install Vue CLI by entering the following in editor terminal: npm install -g @vue/cli
+**Note:** When entering Crypto abbreviations, please use CAPITAL LETTERS.
 
-In the code editor terminal, cd into \my-project directory and enter: npm i axios
-
-Install MongoDB Community Server: https://www.mongodb.com/try/download/community
- <br>  This tutorial helps with install: https://youtu.be/FwMwO8pXfq0
-
-In new terminal, cd into \backend directory and enter: npm init -y
-
-Now enter: npm i body-parser cors express mongoose
-
-Close all terminal tabs
-
-In new code editor terminal, first cd into \backend directory, then enter: node app.js
- <br>  You should see: Connected to port 4000, Database connected
-
-In new terminal, enter: yarn serve
- <br>  Ctrl Click on http://localhost:8080/
-  
-IMPORTANT: When entering Crypto abbreviations into the submit box, USE ALL CAPITALIZED LETTERS. If you use lowercase, it won’t be able to be deleted due to a bug
- 
-The code that we wrote is in the following files:
- <br>/src/App.vue
- <br>/backend/app.js
- <br>/backend/database.js
- <br>/backend/models/Crypto.js
- <br>/backend/routes/crypto.route.js
-
+## Team Members
+- [Nathan Silverglate](https://github.com/Nathan-Silverglate)
+- [Michael Wong](https://github.com/mw1984)
+- [Sarah Lin](https://github.com/procrasprincess)
+- [Anastasia Shaura](https://github.com/goilfrend)
