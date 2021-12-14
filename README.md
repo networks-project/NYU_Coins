@@ -57,10 +57,3 @@ yarn serve
 - [Sarah Lin](https://github.com/procrasprincess)
 - [Anastasia Shaura](https://github.com/goilfrend)
 
-## Code Files
->The code that was written is contained in the following five files:
-- /src/App.vue
-- /backend/app.js
-- /backend/database.js
-- /backend/models/Crypto.js
-
