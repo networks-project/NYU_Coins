@@ -2,6 +2,10 @@
 
 To run code locally, do the following:
 
+Download GitHub repository from https://github.com/networks-project/NYU_Coins
+
+Open code editor application, I used Microsoft Visual Studio Code
+
 Install Node.js as well as NPM which should be enabled by default
   In code editor terminal enter: node -v
   In code editor terminal enter: npm -v
